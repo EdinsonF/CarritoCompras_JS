@@ -61,6 +61,10 @@ function addCarrito(infoCurso){
                     </td>
                     <td>
                     ${infoCurso.precio}
+                    </td>
+                    <td>
+                    <a src"#" class="borrar-curso" data-id="${infoCurso.id}">
+                    X</a>
                     </td>`
 
 
